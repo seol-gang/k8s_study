@@ -1,1 +1,1 @@
-image: 'ghcr.io/seol-gang/test-app:null'
+image: ':{{ needs.build.steps.prep.outputs.tag }}'
